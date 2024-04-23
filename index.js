@@ -62,7 +62,7 @@ passportFunction(passport)
 //Allow requests from frontend
 app.use(
   cors({
-    origin: process.env.REACT_APP_BASE_SERVER_URL,
+    origin: process.env.REACT_APP_BASE_URL,
     credentials: true,
     exposedHeaders: "Access-Control-Allow-Credentials",
     // allowedHeaders: [
